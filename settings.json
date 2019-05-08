@@ -1,0 +1,59 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 0,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false,
+
+    // VIM [START]
+    "vim.leader": ",",
+    "vim.cmdLineInitialColon": true,
+    
+    "vim.otherModesKeyBindingsNonRecursive": [
+      // Open line above/below, and retain mode (normal mode)
+      { 
+        "before": ["leader", "O"], "after": ["O", "<Esc>"]
+      }, { 
+        "before": ["leader", "o"], "after": ["o", "<Esc>"]
+      }
+    ],
+    
+    "vim.insertModeKeyBindingsNonRecursive": [
+      // Open line above/below, and retain mode (insert mode)
+      { 
+        "before": ["leader", "O"], "after": ["<Esc>", "O"]
+      }, { 
+        "before": ["leader", "o"], "after": ["<Esc>", "o"]
+      }, 
+      
+      // insert mode movements
+      {
+        "before": ["<c-h>"], "after": ["<left>"]
+      }, {
+        "before": ["<c-l>"], "after": ["<right>"]
+      }, {
+        "before": ["<c-j>"], "after": ["<down>"]
+      }, {
+        "before": ["<c-k>"], "after": ["<up>"]
+      }
+    ],
+    // VIM [END]
+   
+    
+    "sync.gist": "b869e8efe2f2235a3b6ae70207842df9",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-06-14T01:54:46.516Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "open-in-vim.openMethod": "macos.macvim",
+    "editor.lineHeight": 16,
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 11,
+    "window.nativeTabs": true
+  }
