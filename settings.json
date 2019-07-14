@@ -7,24 +7,30 @@
     // VIM [START]
     "vim.leader": ",",
     "vim.cmdLineInitialColon": true,
-    
+
     "vim.otherModesKeyBindingsNonRecursive": [
       // Open line above/below, and retain mode (normal mode)
-      { 
+      {
         "before": ["leader", "O"], "after": ["O", "<Esc>"]
-      }, { 
+      }, {
         "before": ["leader", "o"], "after": ["o", "<Esc>"]
       }
     ],
-    
+
     "vim.insertModeKeyBindingsNonRecursive": [
+
+      // ',,' to <Esc> during insert mode
+      {
+        "before": [",", ","], "after": ["<Esc>"]
+      },
+
       // Open line above/below, and retain mode (insert mode)
-      { 
+      {
         "before": ["leader", "O"], "after": ["<Esc>", "O"]
-      }, { 
+      }, {
         "before": ["leader", "o"], "after": ["<Esc>", "o"]
-      }, 
-      
+      },
+
       // insert mode movements
       {
         "before": ["<c-h>"], "after": ["<left>"]
@@ -37,8 +43,8 @@
       }
     ],
     // VIM [END]
-   
-    
+
+
     "sync.gist": "b869e8efe2f2235a3b6ae70207842df9",
     "sync.host": "",
     "sync.pathPrefix": "",
