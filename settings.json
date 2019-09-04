@@ -61,5 +61,22 @@
     "editor.lineHeight": 16,
     "editor.lineNumbers": "relative",
     "editor.fontSize": 11,
-    "window.nativeTabs": true
+    "window.nativeTabs": true,
+
+    // Flow
+    // ====
+    // see: https://github.com/flowtype/flow-for-vscode
+    //
+    //"flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+    //"javascript.validate.enable": false
+
+
+    // Enabling ESLint on TS files in VSCode
+    // https://javascriptplayground.com/typescript-eslint/
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ]
   }
