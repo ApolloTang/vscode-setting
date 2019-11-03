@@ -1,0 +1,5 @@
+~/Library/Application Support/Code/User/settings.json -> /Users/apollotang/1/1-sy/configurations/vscode/vscode-setting/settings.jso
+
+
+
+
