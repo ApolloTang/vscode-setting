@@ -96,5 +96,6 @@
   "editor.formatOnSave": true,
 
   "typescript.tsdk": "",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "editor.accessibilitySupport": "off"
 }
