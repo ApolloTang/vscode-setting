@@ -93,7 +93,7 @@
   // Prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
 
   "typescript.tsdk": "",
   "window.zoomLevel": 1,
