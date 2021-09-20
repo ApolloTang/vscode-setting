@@ -1,82 +1,100 @@
 {
-    "workbench.colorTheme": "Default Light+",
-    "window.zoomLevel": 0,
-    "editor.tabSize": 4,
-    "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Default Light+",
+  "editor.tabSize": 4,
+  "editor.minimap.enabled": false,
 
-    // VIM [START]
-    "vim.leader": ",",
-    "vim.cmdLineInitialColon": true,
+  // VIM [START]
+  "vim.leader": ",",
+  "vim.cmdLineInitialColon": true,
 
-    "vim.otherModesKeyBindingsNonRecursive": [
-      // Open line above/below, and retain mode (normal mode)
-      {
-        "before": ["leader", "O"], "after": ["O", "<Esc>"]
-      }, {
-        "before": ["leader", "o"], "after": ["o", "<Esc>"]
-      }
-    ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    // Open line above/below, and retain mode (normal mode)
+    {
+      "before": ["leader", "O"],
+      "after": ["O", "<Esc>"]
+    },
+    {
+      "before": ["leader", "o"],
+      "after": ["o", "<Esc>"]
+    }
+  ],
 
-    "vim.insertModeKeyBindingsNonRecursive": [
+  "vim.insertModeKeyBindingsNonRecursive": [
+    // ',,' to <Esc> during insert mode
+    {
+      "before": [",", ","],
+      "after": ["<Esc>"]
+    },
 
-      // ',,' to <Esc> during insert mode
-      {
-        "before": [",", ","], "after": ["<Esc>"]
-      },
+    // Open line above/below, and retain mode (insert mode)
+    {
+      "before": ["leader", "O"],
+      "after": ["<Esc>", "O"]
+    },
+    {
+      "before": ["leader", "o"],
+      "after": ["<Esc>", "o"]
+    },
 
-      // Open line above/below, and retain mode (insert mode)
-      {
-        "before": ["leader", "O"], "after": ["<Esc>", "O"]
-      }, {
-        "before": ["leader", "o"], "after": ["<Esc>", "o"]
-      },
+    // insert mode movements
+    {
+      "before": ["<c-h>"],
+      "after": ["<left>"]
+    },
+    {
+      "before": ["<c-l>"],
+      "after": ["<right>"]
+    },
+    {
+      "before": ["<c-j>"],
+      "after": ["<down>"]
+    },
+    {
+      "before": ["<c-k>"],
+      "after": ["<up>"]
+    }
+  ],
+  // VIM [END]
 
-      // insert mode movements
-      {
-        "before": ["<c-h>"], "after": ["<left>"]
-      }, {
-        "before": ["<c-l>"], "after": ["<right>"]
-      }, {
-        "before": ["<c-j>"], "after": ["<down>"]
-      }, {
-        "before": ["<c-k>"], "after": ["<up>"]
-      }
-    ],
-    // VIM [END]
+  "sync.gist": "b869e8efe2f2235a3b6ae70207842df9",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-06-14T01:54:46.516Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "open-in-vim.openMethod": "macos.macvim",
+  "editor.lineHeight": 16,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 11,
+  "window.nativeTabs": true,
 
+  // Flow
+  // ====
+  // see: https://github.com/flowtype/flow-for-vscode
+  //
+  //"flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  //"javascript.validate.enable": false
 
-    "sync.gist": "b869e8efe2f2235a3b6ae70207842df9",
-    "sync.host": "",
-    "sync.pathPrefix": "",
-    "sync.quietSync": false,
-    "sync.askGistName": false,
-    "sync.removeExtensions": true,
-    "sync.syncExtensions": true,
-    "sync.autoDownload": false,
-    "sync.autoUpload": false,
-    "sync.lastUpload": "2018-06-14T01:54:46.516Z",
-    "sync.lastDownload": "",
-    "sync.forceDownload": false,
-    "open-in-vim.openMethod": "macos.macvim",
-    "editor.lineHeight": 16,
-    "editor.lineNumbers": "relative",
-    "editor.fontSize": 11,
-    "window.nativeTabs": true,
+  // Enabling ESLint on TS files in VSCode
+  // https://javascriptplayground.com/typescript-eslint/
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
 
-    // Flow
-    // ====
-    // see: https://github.com/flowtype/flow-for-vscode
-    //
-    //"flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
-    //"javascript.validate.enable": false
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
 
-
-    // Enabling ESLint on TS files in VSCode
-    // https://javascriptplayground.com/typescript-eslint/
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
-    ]
-  }
+  "typescript.tsdk": "",
+  "window.zoomLevel": 1
+}
