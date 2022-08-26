@@ -90,6 +90,13 @@
     "typescriptreact"
   ],
 
+
+  //
+  // grammarly
+  // =========
+  "grammarly.selectors": [],
+
+
   // Prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
