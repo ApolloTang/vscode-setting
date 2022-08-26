@@ -114,6 +114,11 @@
 
 
   //
+  // markdown-preview-enhancer
+  // =========================
+  "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+
+  //
   // Misc [START]
   // =============
   "workbench.colorTheme": "Default Light+",
