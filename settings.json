@@ -1,9 +1,7 @@
 {
-  "workbench.colorTheme": "Default Light+",
-  "editor.tabSize": 4,
-  "editor.minimap.enabled": false,
-
+  //
   // VIM [START]
+  // ============
   "vim.leader": ",",
   "vim.cmdLineInitialColon": true,
 
@@ -55,7 +53,18 @@
     }
   ],
   // VIM [END]
+  // ^^^^^^^^^^^^^^^^^^^^^
 
+
+  //
+  // Open in vim
+  // ============
+  "open-in-vim.openMethod": "macos.macvim",
+
+
+  //
+  // sync
+  // ======
   "sync.gist": "b869e8efe2f2235a3b6ae70207842df9",
   "sync.host": "",
   "sync.pathPrefix": "",
@@ -68,12 +77,9 @@
   "sync.lastUpload": "2018-06-14T01:54:46.516Z",
   "sync.lastDownload": "",
   "sync.forceDownload": false,
-  "open-in-vim.openMethod": "macos.macvim",
-  "editor.lineHeight": 16,
-  "editor.lineNumbers": "relative",
-  "editor.fontSize": 11,
-  "window.nativeTabs": true,
 
+
+  //
   // Flow
   // ====
   // see: https://github.com/flowtype/flow-for-vscode
@@ -81,6 +87,10 @@
   //"flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
   //"javascript.validate.enable": false
 
+
+  //
+  // Eslint
+  // =======
   // Enabling ESLint on TS files in VSCode
   // https://javascriptplayground.com/typescript-eslint/
   "eslint.validate": [
@@ -97,13 +107,32 @@
   "grammarly.selectors": [],
 
 
+  //
   // Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ========
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+
+  //
+  // Misc [START]
+  // =============
+  "workbench.colorTheme": "Default Light+",
+
+  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 11,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
+  "editor.lineHeight": 16,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 4,
 
   "typescript.tsdk": "",
+
+  "window.nativeTabs": true,
   "window.zoomLevel": 1,
-  "editor.accessibilitySupport": "off"
+
+  "security.workspace.trust.untrustedFiles": "open"
+  // Misc [END]
+  // ^^^^^^^^^^^^^^^^
 }
