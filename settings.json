@@ -110,6 +110,7 @@
     "**/*.md"
   ],
 
+
   //
   // Prettier
   // ========
@@ -140,13 +141,9 @@
   // Misc [START]
   // =============
   "workbench.colorTheme": "Visual Studio Light",
-
-  "typescript.tsdk": "",
-
   "window.nativeTabs": true,
-  "window.zoomLevel": 1,
-
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "update.mode": "manual"
   // Misc [END]
   // ^^^^^^^^^^^^^^^^
 }
