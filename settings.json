@@ -123,11 +123,10 @@
   "markdown-preview-enhanced.mathRenderingOption": "MathJax",
   "markdown-preview-enhanced.previewTheme": "none.css",
 
-  //
-  // Misc [START]
-  // =============
-  "workbench.colorTheme": "Default Light+",
 
+  //
+  // editor
+  // =======
   "editor.accessibilitySupport": "off",
   "editor.fontSize": 12,
   "editor.formatOnPaste": false,
@@ -135,6 +134,12 @@
   "editor.lineHeight": 1.4,
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
+
+
+  //
+  // Misc [START]
+  // =============
+  "workbench.colorTheme": "Visual Studio Light",
 
   "typescript.tsdk": "",
 
