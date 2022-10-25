@@ -129,13 +129,12 @@
   "workbench.colorTheme": "Default Light+",
 
   "editor.accessibilitySupport": "off",
-  "editor.fontSize": 11,
+  "editor.fontSize": 12,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
-  "editor.lineHeight": 16,
+  "editor.lineHeight": 1.4,
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
-  "editor.tabSize": 4,
 
   "typescript.tsdk": "",
 
