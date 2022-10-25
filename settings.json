@@ -119,7 +119,9 @@
   //
   // markdown-preview-enhancer
   // =========================
+  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
   "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+  "markdown-preview-enhanced.previewTheme": "none.css",
 
   //
   // Misc [START]
