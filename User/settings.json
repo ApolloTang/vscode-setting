@@ -5,7 +5,7 @@
   "vim.leader": ",",
   "vim.cmdLineInitialColon": true,
 
-  "vim.otherModesKeyBindingsNonRecursive": [
+  "vim.normalModeKeyBindingsNonRecursive": [
     // Open line above/below, and retain mode (normal mode)
     {
       "before": ["leader", "O"],
