@@ -1,4 +1,4 @@
-# About the this folder
+# About this folder
 
 Content of this folder is symbolic link to:
 

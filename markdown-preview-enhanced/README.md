@@ -1,4 +1,4 @@
-# About the this folder
+# About this folder
 
 The file **styles.less** is the custom style used by VsCode's extentions [shd101wyy/markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).
 
